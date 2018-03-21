@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="oracle.account">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="MYACCOUNT">
+      <ObjectId>67</ObjectId>
+      <IntrospectionTimestamp>2017-12-11.18:38:29</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-11-28.19:00:37</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.17:30:24</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>19</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="TSMSYS">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="WMSYS">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="EXFSYS">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DMSYS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>38</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDPLUGINS">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="MDSYS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="OLAPSYS">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="MDDATA">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="SYSMAN">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="MGMT_VIEW">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SCOTT">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="HR">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="OE">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="IX">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SH">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="PM">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="BI">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SURTEC">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SIB">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="TEST01">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <sequence id="34" parent="2" name="AUTHOR_TB_SEQ">
+      <ObjectId>52874</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:35:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:35:35</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="35" parent="2" name="A_TB_SEQ">
+      <ObjectId>52855</ObjectId>
+      <CreatedTimestamp>2017-11-28.19:00:37</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:00:37</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="36" parent="2" name="BIG_CATEGORY_TB_SEQ">
+      <ObjectId>52885</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:40:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:40:47</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="37" parent="2" name="BOOK_TB_SEQ">
+      <ObjectId>52903</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:53:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:53:40</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="38" parent="2" name="B_TB_SEQ">
+      <ObjectId>52856</ObjectId>
+      <CreatedTimestamp>2017-11-28.19:00:38</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:00:38</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="39" parent="2" name="CHAPTER_TB_SEQ">
+      <ObjectId>52909</ObjectId>
+      <CreatedTimestamp>2017-12-01.16:55:49</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-01.16:55:49</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="40" parent="2" name="MYUSER_TB_SEQ">
+      <ObjectId>52680</ObjectId>
+      <CreatedTimestamp>2017-11-29.18:20:22</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.18:20:22</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="41" parent="2" name="SMALL_CATEGORY_TB_SEQ">
+      <ObjectId>52889</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:42:00</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:42:00</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="42" parent="2" name="A">
+      <ObjectId>52858</ObjectId>
+      <CreatedTimestamp>2017-11-28.19:01:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:01:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="2" name="AUTHOR">
+      <ObjectId>52880</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:32:46</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:35:52</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="2" name="B">
+      <ObjectId>52853</ObjectId>
+      <CreatedTimestamp>2017-11-28.19:00:37</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:00:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="2" name="BIG_CATEGORY">
+      <ObjectId>52883</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:40:20</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:41:00</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="BOOK">
+      <ObjectId>52899</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:53:25</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.21:40:02</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="CHAPTER">
+      <ObjectId>52916</ObjectId>
+      <CreatedTimestamp>2017-12-01.16:55:38</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-05.23:33:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="2" name="MYUSER">
+      <ObjectId>52866</ObjectId>
+      <CreatedTimestamp>2017-11-29.18:18:49</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.18:21:02</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="2" name="SMALL_CATEGORY">
+      <ObjectId>52887</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:41:46</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:42:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <routine id="50" parent="2" name="PROC_BOOK_COUNT">
+      <ObjectId>53119</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <CreatedTimestamp>2017-12-11.17:30:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.17:30:24</ModifiedTimestamp>
+    </routine>
+    <column id="51" parent="42" name="A_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="42" name="A_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="53" parent="42" name="B_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="54" parent="42" name="SYS_C005474">
+      <ObjectId>52859</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-28.19:01:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:01:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>A_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="42" name="SYS_C005474">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-28.19:01:12</ModifiedTimestamp>
+      <ColNames>A_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005474</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="56" parent="42" name="SYS_C005475">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-28.19:01:12</ModifiedTimestamp>
+      <ColNames>B_ID</ColNames>
+      <RefSchemaName>MYACCOUNT</RefSchemaName>
+      <RefTableName>B</RefTableName>
+      <RefKeyName>SYS_C005472</RefKeyName>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <trigger id="57" parent="42" name="A_TB_TRI">
+      <ObjectId>52860</ObjectId>
+      <CreatedTimestamp>2017-11-28.19:01:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:01:39</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="58" parent="43" name="AUTHOR_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="43" name="AUTHOR_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="60" parent="43" name="AUTHOR_DESCRIBE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(4000)|0</DataType>
+    </column>
+    <column id="61" parent="43" name="AUTHOR_PIC">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <index id="62" parent="43" name="SYS_C005494">
+      <ObjectId>52881</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-29.19:32:46</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:32:46</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>AUTHOR_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="63" parent="43" name="SYS_C005494">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.19:32:46</ModifiedTimestamp>
+      <ColNames>AUTHOR_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005494</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="64" parent="43" name="AUTHOR_TB_TRI">
+      <ObjectId>52882</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:35:52</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:35:52</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="65" parent="44" name="B_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="44" name="B_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <index id="67" parent="44" name="SYS_C005472">
+      <ObjectId>52854</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-28.19:00:37</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:00:37</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>B_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="44" name="SYS_C005472">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-28.19:00:37</ModifiedTimestamp>
+      <ColNames>B_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005472</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="69" parent="44" name="B_TB_TRI">
+      <ObjectId>52857</ObjectId>
+      <CreatedTimestamp>2017-11-28.19:00:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-28.19:00:39</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="70" parent="45" name="BIG_CATE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="45" name="BIG_CATE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <index id="72" parent="45" name="SYS_C005496">
+      <ObjectId>52884</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-29.19:40:21</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:40:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>BIG_CATE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="45" name="SYS_C005496">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.19:40:21</ModifiedTimestamp>
+      <ColNames>BIG_CATE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005496</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="74" parent="45" name="BIG_CATEGORY_TB_TRI">
+      <ObjectId>52886</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:41:00</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:41:00</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="75" parent="46" name="BOOK_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="46" name="BOOK_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="77" parent="46" name="AUTHOR_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="78" parent="46" name="BOOK_DATE">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="79" parent="46" name="BOOK_DESCRIBE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(4000)|0</DataType>
+    </column>
+    <column id="80" parent="46" name="SMALL_CATE_ID">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="81" parent="46" name="BOOK_PIC">
+      <Position>7</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="82" parent="46" name="BOOK_READ_COUNT">
+      <Position>8</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="83" parent="46" name="BOOK_DOWNLOAD_COUNT">
+      <Position>9</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="84" parent="46" name="BOOK_CONTENT">
+      <Position>10</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <column id="85" parent="46" name="BOOK_OUT">
+      <Position>11</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="86" parent="46" name="CHAP_COUNT">
+      <Position>12</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="87" parent="46" name="SYS_C005507">
+      <ObjectId>52902</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-29.19:53:25</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:53:25</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>BOOK_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="46" name="SYS_C005507">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.19:53:25</ModifiedTimestamp>
+      <ColNames>BOOK_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005507</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="89" parent="46" name="SYS_C005508">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.19:53:25</ModifiedTimestamp>
+      <ColNames>AUTHOR_ID</ColNames>
+      <RefSchemaName>MYACCOUNT</RefSchemaName>
+      <RefTableName>AUTHOR</RefTableName>
+      <RefKeyName>SYS_C005494</RefKeyName>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <foreign-key id="90" parent="46" name="SYS_C005509">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.19:53:25</ModifiedTimestamp>
+      <ColNames>SMALL_CATE_ID</ColNames>
+      <RefSchemaName>MYACCOUNT</RefSchemaName>
+      <RefTableName>SMALL_CATEGORY</RefTableName>
+      <RefKeyName>SYS_C005498</RefKeyName>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <trigger id="91" parent="46" name="BOOK_TB_TRI">
+      <ObjectId>52904</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:53:58</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.21:47:02</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="92" parent="47" name="CHAP_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="47" name="CHAP_TITLE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="94" parent="47" name="CHAP_TITLE_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="95" parent="47" name="BOOK_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="96" parent="47" name="CHAP_CONTENT">
+      <Position>5</Position>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <index id="97" parent="47" name="SYS_C005527">
+      <ObjectId>52919</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-01.16:55:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-01.16:55:39</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CHAP_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="98" parent="47" name="SYS_C005527">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-12-01.16:55:39</ModifiedTimestamp>
+      <ColNames>CHAP_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005527</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="99" parent="47" name="SYS_C005528">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-12-01.16:55:39</ModifiedTimestamp>
+      <ColNames>BOOK_ID</ColNames>
+      <RefSchemaName>MYACCOUNT</RefSchemaName>
+      <RefTableName>BOOK</RefTableName>
+      <RefKeyName>SYS_C005507</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <trigger id="100" parent="47" name="CHAPTER_TB_TRI">
+      <ObjectId>52920</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2017-12-01.16:55:53</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.22:12:15</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="101" parent="48" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="48" name="USER_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="103" parent="48" name="USER_PWD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="104" parent="48" name="USER_EMAIL">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="105" parent="48" name="USER_ADMIN">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0
+</DefaultExpression>
+    </column>
+    <index id="106" parent="48" name="SYS_C005486">
+      <ObjectId>52867</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-29.18:18:49</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.18:18:49</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="48" name="SYS_C005486">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.18:18:49</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005486</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="108" parent="48" name="MYUSER_TB_TRI">
+      <ObjectId>52868</ObjectId>
+      <CreatedTimestamp>2017-11-29.18:21:02</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.18:21:02</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="109" parent="49" name="SMALL_CATE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="49" name="SMALL_CATE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="111" parent="49" name="BIG_CATE_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="112" parent="49" name="SYS_C005498">
+      <ObjectId>52888</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-29.19:41:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:41:47</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SMALL_CATE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="113" parent="49" name="SYS_C005498">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.19:41:47</ModifiedTimestamp>
+      <ColNames>SMALL_CATE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005498</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="114" parent="49" name="SYS_C005499">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-11-29.19:41:47</ModifiedTimestamp>
+      <ColNames>BIG_CATE_ID</ColNames>
+      <RefSchemaName>MYACCOUNT</RefSchemaName>
+      <RefTableName>BIG_CATEGORY</RefTableName>
+      <RefKeyName>SYS_C005496</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <trigger id="115" parent="49" name="SMALL_CATEGORY_TB_TRI">
+      <ObjectId>52890</ObjectId>
+      <CreatedTimestamp>2017-11-29.19:42:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-29.19:42:10</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <argument id="116" parent="50" name="P_SMALL_CATE_ID">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="117" parent="50" name="P_BIG_CATE_ID">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="118" parent="50" name="P_BOOK_COUNT">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:oracle:thin:@//localhost:1521/orcl</property>
+    <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+    <property name="connection.username">myaccount</property>
+    <property name="connection.password">accountpwd</property>
+    <!--<property name="connection.username">myaccount</property>-->
+    <!--<property name="connection.password">accountpwd</property>-->
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <mapping class="com.yx.po.Author"/>
+    <mapping class="com.yx.po.Myuser"/>
+    <mapping class="com.yx.po.BigCategory"/>
+    <mapping class="com.yx.po.SmallCategory"/>
+    <mapping class="com.yx.po.Book"/>
+    <mapping class="com.yx.po.Chapter"/>
+    <!--使用的SQL对应的“方言”，此处是Oracle9的“方言”-->
+    <!--<property name="dialect"></property>-->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
